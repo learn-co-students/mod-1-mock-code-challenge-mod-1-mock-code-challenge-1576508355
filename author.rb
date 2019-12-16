@@ -21,10 +21,10 @@ class Author
     end
     #returns total words author wrote over all books
     def total_words
-        self.books.sum{|book| book.word_count}
+        self.books.sum(&:word_count)
     end
     #returns author with highest word count
     def self.most_words
-        Author.all.max_by{|author| author.total_words}
+        self.all.max_by(&:total_words)
     end
 end
