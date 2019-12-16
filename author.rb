@@ -1,4 +1,3 @@
-
 class Author
 
     attr_reader :name
@@ -37,7 +36,7 @@ class Author
 
     def self.most_words # WORKS #
         most_words = 0
-        author_result = "none"
+        author_result = nil
         @@all.each do |author|
             total = author.total_words
             if total > most_words
