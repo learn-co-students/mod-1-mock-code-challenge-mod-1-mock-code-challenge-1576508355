@@ -9,9 +9,6 @@ class Book
         @@all << self
     end
 
-    def author
-        self.author
-    end
 
     def self.all
         @@all
