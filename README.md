@@ -6,7 +6,7 @@ But we're getting ahead of ourselves...
 
 We understand that the idea of the Code Challenges can be **stressful**. We're not trying to unduly stress you out, we swear. So what's the point?
 
-## What's the point?
+## What's the point? 
 
 Flatiron did not always have this structure of modules and code challenges.  One problem of that previous structure was that because of the way the course builds upon the previous material, if a student ever got behind during a particular week, as the class continued on to the next week and then the next, it became impossible for a student to catch up.  In the end, some students had to essentially re-do large sections of the curriculum after the course was over with more limited instructor support and without the daily classroom structure.  This is much more difficult  and ultimately takes many more weeks than if there was the opportunity for a student to pause, focus on the current material and shore up any misundersrandings, and then proceed.
 
