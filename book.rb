@@ -1,12 +1,12 @@
 class Book 
-    attr_reader :author, :title, :words 
+    attr_reader :author, :title, :word_count 
 
     @@all = []
 
-    def initialize(author, title, words)
+    def initialize(author, title, word_count)
         @author = author 
         @title = title
-        @words = words
+        @word_count = word_count
 
         @@all << self
     end
@@ -15,12 +15,4 @@ class Book
         @@all 
     end
 
-    def word_count
-    # should return the number of words in the book
-        my_book = Book.all.find do |book|
-            book.title == self
-        end
-        my_book.words
-        
-    end
 end
