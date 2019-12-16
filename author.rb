@@ -1,7 +1,6 @@
 class Author
 
     attr_reader :name
-    attr_accessor
     @@all = []
 
     def initialize(name)
@@ -26,6 +25,6 @@ class Author
     end
     #returns author with highest word count
     def self.most_words
-        Author.all.max_by {|author| author.total_words}
+        Author.all.max_by{|author| author.total_words}
     end
 end
